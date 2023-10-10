@@ -10,11 +10,7 @@ import "../libraries/Address.sol";
 import "../libraries/Strings.sol";
 import "../libraries/ERC721Storage.sol";
 
-/**
- * @dev Implementation of https://eips.ethereum.org/EIPS/eip-721[ERC721] Non-Fungible Token Standard, including
- * the Metadata extension, but not including the Enumerable extension, which is available separately as
- * {ERC721Enumerable}.
- */
+ 
 contract ERC721 is IERC721, IERC721Metadata {
     ERC721Storage internal nft;
 
